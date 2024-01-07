@@ -1,4 +1,4 @@
-import { Divider, Typography } from "@mui/joy";
+import { Typography } from "@mui/joy";
 import { Link } from "react-router-dom";
 import { useState } from 'react';
 
@@ -25,7 +25,7 @@ const Sidebar = () => {
 
     return (
         <nav className="fixed h-20 w-full">
-            <div className="p-4 border-b border-zinc-200 flex items-center gap-4 block md:hidden bg-white">
+            <div className="p-4 border-b border-zinc-200 flex items-center gap-4 md:hidden bg-white">
                 <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                     className="cursor-pointer"
                     onClick={() => handleCollapsible()}

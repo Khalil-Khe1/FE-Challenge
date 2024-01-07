@@ -35,7 +35,6 @@ const Inventory = () => {
 
   const cardSx = {
     "cursor": "pointer",
-    //"background" : "linear-gradient(90deg, rgba(24,44,146,1) 31%, rgba(51,132,158,1) 71%)",
     "&:hover": {
       "border": "2px solid #22d3ee !important",
     }
