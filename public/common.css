@@ -1,0 +1,16 @@
+.Collapsible{
+    position: fixed;
+    z-index: 50;
+    height: 100%;
+    max-width: 0px;
+    transition: max-width .6s, padding .6s, width .6s;
+    overflow: hidden;
+    padding: 12px 0px 12px 0px;
+    background-color: #0b6bcb; /*0b6bcb 0d0f34*/
+    border-radius: 0px 0px 200px 20px;
+    font-weight: 550;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
